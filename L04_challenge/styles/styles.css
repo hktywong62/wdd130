@@ -1,0 +1,38 @@
+element{
+    background-color: #FF0000;
+}
+
+body {
+    text-align: center;
+    background-color: aqua;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px
+}
+
+h1 {
+    font-size: 60px;
+    color: #000000;
+}
+
+h2 {
+    font-size: 20px;
+    color:#FF0000
+}
+.center {
+    text-align: center;
+}
+
+.motto {
+    font-size:  15px;
+}
+
+.final {
+    font-size: 50px;
+    color:antiquewhite;
+    text-align: center;
+    border-width: 10px solid;
+}
