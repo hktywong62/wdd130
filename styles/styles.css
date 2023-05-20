@@ -16,6 +16,7 @@ img {
     width: 80%;
     display: block;
     margin: 0 auto;
+    border: 4px solidblue;
 }
 p {
     padding:  5px;
@@ -39,4 +40,26 @@ main p {
     width: 80%;
     margin: 50px auto;
     text-align: center;
+}
+
+footer {
+    background-color:  steelblue;
+    color: white;
+}
+
+footer p {
+    padding: 25px;
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 25px;
+}
+a {
+    color: white;
+    padding: 25px
 }

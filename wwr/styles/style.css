@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,100&family=Rock+Salt&display=swap');
+
 .content{
     max-width: 1600px;
 }
 #content{
     margin: 0 auto;
 }
+#logo_link{
+    padding-top: 35px;
+}
 nav a {
     text-align: center;
     color:#d9c2a3;
     text-decoration: none;
+    padding:  35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -21,13 +27,24 @@ nav a {
 main section{
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
+.mountains {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
 
 #background {
     height: 725px;
 }
 
 body {
+    font-family:  'Rock Salt', 'Roboto Serif', 'Helvetica', 'sans-serif';
+    font-size: 22px;
     background-color: #fcfbfb; 
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -38,19 +55,23 @@ nav a:hover {
     color: #edf2f4;
 }
 .home-title {
-    color:rgba(20,30,13, .7);
+     font-family: 'Roboto Serif', 'sans-serif';
+     font-size: 2em;
+    color: rgba(20,30,13, .7);
+    margin-top: 10px;
 }
-h4 {color: black;
+h4 {color:
+     black;
 }
-.book{
-    background-color: #fcfbfb;
-    color: #edf2f4;
+
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
     text-decoration: none;
-}
-.join {
-    background-color: blue;
-    color:darkturquoise;
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: darkorange;
@@ -59,20 +80,27 @@ h4 {color: black;
 .join:hover {
     background-color: darkviolet;
 }
-msg h2 {
+.msg h2 {
+    font-family: 'Roboto Serif', 'sans-serif';
     color:aqua;
 }
-msg p {
+.msg p {
+    font-size: .8em;
     color:black;
+    padding-bottom: 15px;
 }
 #background {
     background-color: dimgrey;
 }
 .msg {
+    line-height: 1.5em;
     background-color: hotpink;
+    padding: 35px;
 }
 footer {
     background-color: silver;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color:darkslateblue;
@@ -87,13 +115,26 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+foot .social mg {
+    padding-top: 15px;
+}
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+h2{
+    margin: 0;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid darkslateblue;
 }

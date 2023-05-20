@@ -1,0 +1,19 @@
+.hero {height: 100%;
+    width: 100%;
+}
+
+
+.smallimages {
+    box-sizing: content-box;
+    float: left;
+    width: 200px;
+    height: 160px
+    padding: 50px;
+    background-color: gray;
+    
+}
+.smallimages img {
+    border-radius: 50%;
+  }
+  
+  
