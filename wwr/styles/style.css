@@ -30,10 +30,6 @@ main section{
 main section img {
     box-sizing: border-box;
 }
-.mountains {
-    margin-top: 50px;
-    margin-bottom: 80px;
-}
 
 #background {
     height: 725px;
