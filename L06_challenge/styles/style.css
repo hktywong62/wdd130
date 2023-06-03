@@ -1,0 +1,26 @@
+
+.heading {
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+
+
+
+.cherryimage {
+    width: 5px;
+    position: right;
+    text-align: center;
+    color: blue;
+}
+   
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
