@@ -203,16 +203,19 @@ h2{
 }
 #feedback {
     background-color: antiquewhite;
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     padding: .5em;
+    margin-left: 50px;
     /* make this element invisible until we are ready for it */
     display: none;      
 }
 .moveDown {
     margin-top: 3em;
+}
+textarea {
+    font-size: 30px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
