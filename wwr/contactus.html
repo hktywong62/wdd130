@@ -36,6 +36,9 @@
                 <label for="msg">Message:</label>
                 <textarea id="msg" name="user_message"></textarea>
               </li>
+              <li class="button">
+              <button type="submit">Send your message</button>
+              </li> 
             </ul>
           </form>
           
@@ -72,7 +75,7 @@
             // make the feedback element visible.
             feedbackElement.style.display = "block";
             // add a class to move everything down so our message doesn't cover it.
-            document.body.classList.toggle('moveDown');
+            document.main.classList.toggle('moveDown');
         });
     </script>
 </body>
