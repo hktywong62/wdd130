@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .column1, .column2, .column3 {
+    float: left;
+    width: 33.33%;
+    height: auto;
+    padding: 10px;
+    vertical-align: center;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column1 {
+    flex: 0.945;
+  }
+
+  .column2 {
+    flex: 0.6612;
+  }
+
+  .column3 {
+    flex: 0.5633;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
