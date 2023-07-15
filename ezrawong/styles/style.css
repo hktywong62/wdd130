@@ -13,7 +13,7 @@ body {
     font-family: 'Arial', 'Helvetica';
     font-size: 40px;
     background-color: #95b46A;
-    width: 100%;
+    width: 90%;
     margin-left: 15px;
     padding: 50px;
     margin-right: 0;
@@ -53,7 +53,7 @@ nav {
     justify-content: space-around;
 }
 
-.home-grid, .kindergarten {
+.home-grid, .kindergarten, .primaryschool {
     padding: 20px;
     margin: 10px;
     background-color: #F5F749;
@@ -72,17 +72,16 @@ nav {
 
 }
 
-  .card-image1 {
+  .card-image1, card-image3 {
     grid-column: 2/3;
     display: flex;
     flex: 0.945563909;
   }
 
-  .card-image2 {
+  .card-image2, card-image4 {
     grid-column: 4/5;
     display: flex;
     flex: 0.702576;
-    /*border: 5px solid #555;*/
   }
 
   
@@ -94,7 +93,12 @@ nav {
   }
 
 footer {
-    /*grid-area: 6 / 1 / 7 / 7;*/
-    font-size: 50px;
+    padding: 15px 0 5px 0;
+    font-size: 25px;
+    text-align: right;
     background-color: #6BD425;
+}
+
+footer a{
+    margin-right:  25px;
 }
