@@ -69,14 +69,9 @@ nav {
     padding-left: 100px;
     display: flex;
     border: 5px solid #555;
-
-}
-.Ezra-pics3 {
-    padding-left: 50px
 }
 
-
-  .card-image1, card-image3 {
+ .card-image1, card-image3 {
     grid-column: 2/3;
     display: flex;
     flex: 0.945563909;
