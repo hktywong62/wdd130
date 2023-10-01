@@ -1,26 +1,52 @@
 
-.heading {
-    font-size: 75px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 50% 50%;
+    font-family:  serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 0;
 }
 
-
-
-
-
 .cherryimage {
-    width: 5px;
-    position: right;
+    grid-area:  1 /1 /2 /2;
+    width: 50px;
+    /*position: right;*/
     text-align: center;
     color: blue;
 }
-   
 
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
-    margin: 0;
+.heading {
+    grid-area: 1 / 1 / 3 / 5;
+    font-size: 80px;
+    letter-spacing: 30px;
+    position: absolute;
+    align-content: left;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)*/
 }
+
+.cherry {
+    grid-area: 2 / 3 / 3 / 5;
+    font-size: 30px;
+    color: red;
+    letter-spacing: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+.background {
+    grid-area: 1 / 3 / 3 / 5;
+    background-color: gray;
+    margin-bottom: 50px;
+    height: 75%;
+}
+
+
+
+
+
